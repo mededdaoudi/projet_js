@@ -1,0 +1,14 @@
+le site vitrine : 
+
+
+1- gardent le thème de jeu 
+
+2- la combinaison entre les élméments pour qu'ils sont compatibles avec eux
+
+3- l'alignement de ces elements
+
+4- page Accueil / page d'équipe (à propos), chaqu'un contenant plusieurs sections
+
+5- gardent le style txt qui correspond au jeu
+
+6- choix de couleur (2 couleur qui on base en)
