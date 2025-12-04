@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INTERN GRIND</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="website">
+    <nav id="navbar">
+      <div class="nav-content">
+        <div class="logo">INTERN GRIND</div>
+        <div class="nav-links">
+          <a href="#hero" class="nav-link">Accueil</a>
+          <a href="#features" class="nav-link">Fonctionnalités</a>
+          <a href="#upgrades" class="nav-link">Améliorations</a>
+          <a href="#stats" class="nav-link">Statistiques</a>
+          <a href="about.html" class="nav-link">À propos</a>
+        </div>
+        <button id="sound-toggle" class="icon-btn">🔊</button>
+      </div>
+    </nav>
+
+    <section id="hero" class="section">
+      <div class="hero-content">
+        <h1 class="hero-title">INTERN GRIND</h1>
+        <p class="hero-subtitle">L'expérience ultime du stagiaire</p>
+        <div class="hero-image-container">
+          <img src="/public/jeu.png" class="hero-image">
+          <div class="floating-coffee">☕</div>
+          <div class="floating-coffee">☕</div>
+          <div class="floating-coffee">☕</div>
+        </div>
+        <button id="start-btn" class="cta-button">Commencer l'aventure</button>
+      </div>
+      <div class="scroll-indicator">↓</div>
+    </section>
+
+    <section id="features" class="section">
+      <h2 class="section-title">Fonctionnalités</h2>
+      <div class="features-grid">
+        <div class="feature-card" data-feature="1">
+          <div class="feature-icon">☕</div>
+          <h3>Système de Click</h3>
+          <p>Cliquez pour générer des cafés et progresser dans votre carrière de stagiaire</p>
+        </div>
+        <div class="feature-card" data-feature="2">
+          <div class="feature-icon">⬆️</div>
+          <h3>Améliorations</h3>
+          <p>Débloquez des machines à café, filtres, et robots pour automatiser votre production</p>
+        </div>
+        <div class="feature-card" data-feature="3">
+          <div class="feature-icon">📊</div>
+          <h3>Niveaux</h3>
+          <p>Progressez à travers différents niveaux et devenez le meilleur stagiaire</p>
+        </div>
+        <div class="feature-card" data-feature="4">
+          <div class="feature-icon">🤖</div>
+          <h3>Automatisation</h3>
+          <p>Générez des cafés par seconde même sans cliquer</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="upgrades" class="section">
+      <h2 class="section-title">Bureau des Améliorations</h2>
+      <div class="upgrades-container">
+        <div class="upgrade-item" data-upgrade="machine">
+          <div class="upgrade-image">☕</div>
+          <div class="upgrade-details">
+            <h3>Machine à Café Réglée</h3>
+            <p class="upgrade-cost">Coût: 10 cafés</p>
+            <p class="upgrade-benefit">+1 café/s</p>
+          </div>
+        </div>
+        <div class="upgrade-item" data-upgrade="filter">
+          <div class="upgrade-image">📄</div>
+          <div class="upgrade-details">
+            <h3>Filtre Neuf</h3>
+            <p class="upgrade-cost">Coût: 100 cafés</p>
+            <p class="upgrade-benefit">+5 cafés/s</p>
+          </div>
+        </div>
+        <div class="upgrade-item" data-upgrade="thermos">
+          <div class="upgrade-image">🍶</div>
+          <div class="upgrade-details">
+            <h3>Bec Verseur Turbo</h3>
+            <p class="upgrade-cost">Coût: 500 cafés</p>
+            <p class="upgrade-benefit">+15 cafés/s</p>
+          </div>
+        </div>
+        <div class="upgrade-item" data-upgrade="robot">
+          <div class="upgrade-image">🤖</div>
+          <div class="upgrade-details">
+            <h3>Robot-Barista</h3>
+            <p class="upgrade-cost">Coût: 1000 cafés</p>
+            <p class="upgrade-benefit">+50 cafés/s</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stats" class="section">
+      <h2 class="section-title">Statistiques en Direct</h2>
+      <div class="stats-board">
+        <div class="stat-card">
+          <div class="stat-value" id="total-clicks">0</div>
+          <div class="stat-label">Clicks Totaux</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="coffee-count">0</div>
+          <div class="stat-label">Cafés Produits</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="cps-count">10</div>
+          <div class="stat-label">Cafés/Seconde</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="level-count">1</div>
+          <div class="stat-label">Niveau</div>
+        </div>
+      </div>
+      <div class="interactive-zone">
+        <button id="mega-click" class="mega-button">MEGA CLICK</button>
+        <div id="click-particles"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 Intern Grind - Tous droits réservés</p>
+    </footer>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
