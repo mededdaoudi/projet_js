@@ -1,3 +1,10 @@
+# Dépendances
+node_modules/
+
+# Builds générés par Vite
+dist/
+dist-ssr/
+
 # Logs
 logs
 *.log
@@ -7,18 +14,11 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Fichiers locaux
 *.local
 
-# Editor directories and files
+# Éditeurs
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
